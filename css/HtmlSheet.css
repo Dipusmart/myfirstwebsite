@@ -1,0 +1,57 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    color: rgb(13, 5, 5);
+}
+*{
+    background-color: rgb(185, 218, 247);
+}
+#navbar {
+height: 60px;
+background-color: #0f1111;
+}
+button{
+    background-color: #f08804
+}
+#logo{
+    color: #261705;
+    font-size: 25px;
+}
+a{
+    margin-right: 100px;
+}
+h1{
+    background-color: rgb(211, 34, 34);
+}
+h1,h2,h3{
+    color: rgb(16, 10, 3);
+    background-color: aliceblue;
+}
+#box{
+    background-color: rgb(174, 174, 50);
+}
+
+
+
+h3{
+    background-color: rgb(187, 110, 110);
+}
+#example{
+    background-color: rgb(181, 240, 240);
+}
+#element{
+    color: rgb(7, 6, 6);
+    background-color: rgb(235, 165, 60);
+}
+#table,tr,td{
+    color: #080809;
+}
+tr{
+    height: 50px;
+    width: 100px;
+}
+td{
+    height: 50px;
+    width: 500px;
+}
