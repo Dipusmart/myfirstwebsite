@@ -101,7 +101,7 @@
     background-size: cover;
 }
 .box8{
-    background-image:url(../Images/photo5.webp) ;
+    background-image:url(../Images/photo3.webp) ;
     background-size: cover;
 }
 .nav5{
@@ -178,12 +178,12 @@
     border:1px solid #333333;
 }
 .box14{
-    background-image:url("../Images/img11.webp") ;
+    background-image:url("../Images/img12.webp") ;
     background-size: cover;
     border:1px solid #333333;
 }
 .box15{
-    background-image:url("../Images/img12.webp") ;
+    background-image:url("../Images/img11.webp") ;
     background-size: cover;
     border:1px solid #333333;
 }
@@ -290,4 +290,159 @@
     display: flex;
     justify-content: space-around;
     font-size: 10px;
+}
+.viewdeatil{
+    background-color: #222222;
+    /* color:white; */
+     border:2px solid #222;
+}
+.box26{
+    border:1px solid #222;
+    color:white;
+}
+.box26 p{
+    color:white;
+}
+.text11{
+      color:white;
+}
+.box28{
+    background-color: #222;
+    border:1px solid #222;
+    background-image: url("../Images/dipu.jpg");
+}
+.box29{
+    border:1px solid white;
+    color:white;
+}
+.box29:hover{
+    background-color: white;
+    color:black;
+}
+.contaner12{
+    height:500px;
+    width:100%;
+    color:black;
+}
+.textbox{
+    position: relative;
+    top:50px;
+    font-size: 40px;
+    text-align: center;
+}
+.maximumbox{
+     display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.box30{
+    border:1px solid #eee;
+    font-size: 17px;
+    position: relative;
+    top:100px;
+    height: 300px;
+    width: 100%;
+    margin-right: 150px;
+     margin-left: 150px;
+     line-height: 29px;
+     font-size: 20px;
+     font-family:inherit;
+}
+.box30 p{
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.box30 big{
+    position: relative;
+    left:450px;
+}
+.contaner13{
+    height:400px;
+    width:100%;
+    border:1px solid #e6e6e6;
+    margin-top: 30px;
+    background-color:#e6e6e6;
+}
+.box31{
+    margin-top: 20px;
+    font-size: 40px;
+    text-align: center;
+    color:black;
+    font-weight: bold;
+}
+.boxmain{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 70px;
+    background-color: #e6e6e6;
+}
+.compani{
+    height:100px;
+    width:180px;
+    border:1px solid #e6e6e6;
+}
+.box32
+{
+    background-image: url(../Images/compani11.webp);
+    background-size: cover;
+}
+.box33
+{
+    background-image: url(../Images/compani22.webp);
+    background-size: cover;
+}
+.box34
+{
+    background-image: url(../Image/compani33.webp);
+    background-size: cover;
+}
+.box35
+{
+    background-image: url(../Images/compani33.webp);
+    background-size: cover;
+}
+.box36
+{
+    background-image: url(../Images/compani55.webp);
+    background-size: cover;
+}
+.footerlast{
+    background-color: black;
+}
+.container14{
+    height:500px;
+    width: 100%;
+    /* background-color:black; */
+    display: flex;
+    justify-content: space-evenly;
+}
+.last p{
+    margin-top: 10px;
+}
+#bb{
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 20px;
+}
+#read{
+    position: relative;
+    left:200px;
+    margin-top: 50px;
+}
+#fff{
+    color:white;
+    position: relative;
+    left:70px;
+}
+#fff1{
+    color:white;
+    position: relative;
+    left:970px;
+    bottom: 10px;
+}
+.footerlast p:hover
+{
+    color: orangered;
 }
