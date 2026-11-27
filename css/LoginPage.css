@@ -1,0 +1,261 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #f0f2f5;
+}
+
+.container {
+    width: 980px;
+    max-width: 95%;
+    margin: auto;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.left {
+    width: 55%;
+}
+
+.left h1 {
+    color: #1877f2;
+    font-size: 60px;
+    margin-bottom: 10px;
+}
+
+.left p {
+    font-size: 25px;
+}
+
+.right {
+    width: 390px;
+    max-width: 100%;
+}
+
+.login-box {
+    background: white;
+    padding: 16px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px #ccc;
+}
+
+input {
+    width: 100%;
+    padding: 14px;
+    margin: 7px 0;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 15px;
+}
+
+button {
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+    border-radius: 6px;
+}
+
+.login {
+    width: 100%;
+    padding: 13px;
+    background: #1877f2;
+    font-size: 20px;
+    margin-top: 8px;
+}
+
+.login-box a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    margin: 18px 0;
+    color: #1877f2;
+}
+
+.create {
+    background: #2bed05;
+    color: white;
+    padding: 14px;
+    width: 230px;
+    margin: 20px auto;
+    border-radius: 6px;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+}
+
+.page {
+    text-align: center;
+    margin-top: 25px;
+}
+
+
+/* Sign Up CSS */
+
+.signup-box {
+    width: 445px;
+    max-width: 95%;
+    background: white;
+    margin: 40px auto;
+    padding: 20px 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px #ddd;
+}
+
+.signup-box h1 {
+    font-size: 30px;
+}
+
+.signup-box p {
+    color: #606770;
+    margin: 7px 0;
+}
+
+.name, .date, .gender {
+    display: flex;
+    gap: 10px;
+}
+
+.name input, .date select {
+    width: 50%;
+}
+
+.date select {
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.signup-box label {
+    font-size: 14px;
+    color: #606770;
+}
+
+.gender label {
+    flex: 1;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px 5px;
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.gender input {
+    width: auto;
+    margin: 0;
+}
+
+.small {
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+.signup {
+    background: #42b72a;
+    padding: 12px;
+    width: 180px;
+    display: block;
+    margin: 20px auto;
+    font-size: 18px;
+}
+
+.signup-box a {
+    color: #1877f2;
+    text-decoration: none;
+
+}
+
+/* HOME PAGE */
+
+.home-container {
+    background: white;
+    max-width: 600px;
+    margin: 100px auto;
+    padding: 40px 20px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px #ccc;
+}
+
+.home-container h1 {
+    color: #1877f2;
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+.home-container h2 {
+    margin-bottom: 15px;
+}
+
+.home-container p {
+    margin-bottom: 25px;
+    font-size: 18px;
+}
+
+.logout {
+    background: #1877f2;
+    padding: 12px 35px;
+    font-size: 16px;
+}
+
+/* RESET PASSWORD PAGE */
+
+.reset-box {
+    width: 430px;
+    max-width: 95%;
+    margin: 100px auto;
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px #ccc;
+}
+
+.reset-box h1 {
+    font-size: 25px;
+    margin-bottom: 12px;
+}
+
+.reset-box p {
+    color: #606770;
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+
+.reset-box input {
+    width: 100%;
+    padding: 14px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 15px;
+}
+
+.reset-btn {
+    width: 100%;
+    padding: 13px;
+    background: #1877f2;
+    font-size: 17px;
+    margin-top: 15px;
+}
+
+.reset-btn:hover {
+    background: #166fe5;
+}
+
+.reset-box a {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    color: #1877f2;
+    text-decoration: none;
+}
