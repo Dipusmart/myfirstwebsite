@@ -75,7 +75,7 @@ width:100px;
     align-items: center;
     font-size: 1.5rem;
     background-color: rgb(244, 231, 47);
-     border-top-right-radius: 4px;
+    border-top-right-radius: 4px;
     border-bottom-right-radius: 4px;
     color: #0f1111;
 }
@@ -135,8 +135,11 @@ span{
     display: flex;
     justify-content: center;
     align-items: flex-end;
+    
 }
-
+.hero-section:hover{
+    border: 2px solid rgb(236, 233, 227);
+}
 .hero-msg{
     background-color: white;
     color: black;
@@ -147,6 +150,9 @@ span{
     font-size: 0.85rem;
     width: 80%;
     margin-bottom: 25px;
+}
+.hero-msg:hover{
+    border: 2px solid rgb(236, 233, 227);
 }
 
 .hero-msg a {
@@ -159,9 +165,12 @@ color: #007185;
     flex-wrap: wrap;
     justify-content: space-evenly;
     background-color: #e2e7e6;
+
 }
 
-
+/*.shop-section:hover{
+    border: 2px solid rgb(236, 233, 227);
+}*/
 .box{
     height: 400px;
     width: 23%;
@@ -179,6 +188,9 @@ color: #007185;
     margin-bottom: 1rem;
 
 }
+.box-img:hover{
+    border: 2px solid rgb(236, 233, 227);
+}
 
 .box-content{
     margin-left: 1rem;
@@ -188,6 +200,12 @@ color: #007185;
 .box-content p {
     color: #007185;
 }
+.box-content p:hover{
+    text-decoration: underline;  
+}
+.box-content p{
+    cursor: pointer;  
+}
 
 .book-section{
     background-image: url("../Images/img\ 1.jpeg");
@@ -196,6 +214,9 @@ color: #007185;
     display: flex;
     justify-content: center;
     align-items: flex-end;
+}
+.book-section:hover{
+    border: 2px solid rgb(245, 244, 243);
 }
 
 .footert {
@@ -211,6 +232,15 @@ color: #007185;
     align-items: center;
     font-size: 0.85rem;
 
+}
+.foot-panel1:hover{
+    border: 0.1px solid rgb(236, 233, 227);
+}
+.foot-panel1 p:hover{
+   color: #0c0cea;
+}
+.foot-panel1 p{
+    cursor: pointer;
 }
 
 .foot-panel2{
@@ -230,6 +260,9 @@ ul a {
     margin-top: 10px;
     color: #dddddd;
 }
+.foot-panel2 ul :hover{
+    color: #1d0aed;
+}
 
 .foot-panel3{
     background-color: #222f3d;
@@ -244,6 +277,9 @@ background-image: url("../Images/logo000.1.jpeg");
 background-size: cover;
 height:50px;
 width:100px;
+}
+.logo:hover{
+    border: 5px solid rgb(236, 233, 227);
 }
 
 .foot-panel4{
